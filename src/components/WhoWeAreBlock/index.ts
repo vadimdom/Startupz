@@ -1,0 +1,1 @@
+export { WhoWeAreBlock } from './WhoWeAreBlock';

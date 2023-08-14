@@ -11,7 +11,7 @@ const WeCreateBlockContainer = styled.div`
   flex-direction: column;
   gap: 25px;
   background: url(${backImage});
-  background-size: 40%;
+  background-size: 50%;
   background-repeat: no-repeat;
   background-position: 100% 100%;
 
