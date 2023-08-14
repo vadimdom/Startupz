@@ -1,5 +1,7 @@
+import { Header } from './Header';
+
 export const Landing = () => (
   <div>
-    Startupz
+    <Header />
   </div>
 );
