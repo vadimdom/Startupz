@@ -1,9 +1,8 @@
 import { styled } from 'styled-components';
 
 import { size } from '../../sizeHelper';
-import { Caption } from '../common';
+import { Caption, Step } from '../common';
 import { ReactComponent as Question } from './img/question.svg';
-import { Step } from './Step';
 
 const WhoWeAreBlockContainer = styled.div`
   background: #FBFAFA;

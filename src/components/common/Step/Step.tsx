@@ -1,7 +1,7 @@
 import { styled } from 'styled-components';
 
-import { size } from '../../sizeHelper';
-import { Caption } from '../common';
+import { size } from '../../../sizeHelper';
+import { Caption } from '..';
 
 const StepContainer = styled.div`
   display: flex;
@@ -61,8 +61,8 @@ const Description = styled(Caption)`
   }
 `;
 
-export const Step = ({ title, description }: { title: string; description: string; }) => (
-  <StepContainer>
+export const Step = ({ title, description, className }: { title: string; description: string; className?: string; }) => (
+  <StepContainer className={className}>
     <Title>{title}</Title>
     <Separator />
     <Description>{description}</Description>
