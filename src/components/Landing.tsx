@@ -3,6 +3,7 @@ import { WeCreateBlock } from './WeCreateBlock';
 import { WhoWeAreBlock } from './WhoWeAreBlock/WhoWeAreBlock';
 import { SolvingProblemsBlock } from './SolvingProblemsBlock';
 import { OurValuesBlock } from './OurValuesBlock';
+import { StartupDescriptionBlock } from './StartupDescriptionBlock';
 
 export const Landing = () => (
   <div>
@@ -11,5 +12,6 @@ export const Landing = () => (
     <WhoWeAreBlock />
     <SolvingProblemsBlock />
     <OurValuesBlock />
+    <StartupDescriptionBlock />
   </div>
 );
