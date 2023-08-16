@@ -5,6 +5,7 @@ import { SolvingProblemsBlock } from './SolvingProblemsBlock';
 import { OurValuesBlock } from './OurValuesBlock';
 import { StartupDescriptionBlock } from './StartupDescriptionBlock';
 import { OurWorksBlock } from './OurWorksBlock/OurWorksBlock';
+import { WeAreHiringBlock } from './WeAreHiringBlock';
 import { Footer } from './Footer';
 
 export const Landing = () => (
@@ -16,6 +17,7 @@ export const Landing = () => (
     <OurValuesBlock />
     <OurWorksBlock />
     <StartupDescriptionBlock />
+    <WeAreHiringBlock />
     <Footer />
   </>
 );

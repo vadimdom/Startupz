@@ -2,8 +2,7 @@ import { styled } from 'styled-components';
 
 import { size } from '../../../sizeHelper';
 import { Caption } from '..';
-import thumbUp from './img/thumbUp.jpg';
-
+import thumbUpImage from './img/thumbUp.svg';
 
 const DescriptionContainer = styled.div`
   display: flex;
@@ -36,9 +35,12 @@ const Text = styled(Caption)`
   }
 `;
 
-const ThumbUp = styled.img`
-  width: 50px;
+const ThumbUp = styled.div`
+  min-width: 50px;
   height: 56px;
+  background: url(${thumbUpImage});
+  background-size: cover;
+  background-repeat: no-repeat;
 `;
 
 const ReflectedThumbUp = styled(ThumbUp)`
@@ -47,8 +49,8 @@ const ReflectedThumbUp = styled(ThumbUp)`
 
 export const ThumbUpBlock = ({ text }: { text: string; }) => (
   <DescriptionContainer>
-    <ThumbUp src={thumbUp} alt="Thumb Up" />
+    <ThumbUp />
     <Text>{text}</Text>
-    <ReflectedThumbUp src={thumbUp} alt="Thumb Up" />
+    <ReflectedThumbUp />
   </DescriptionContainer>
 );

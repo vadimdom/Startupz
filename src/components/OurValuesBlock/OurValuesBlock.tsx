@@ -2,7 +2,7 @@ import { styled } from 'styled-components';
 
 import { size } from '../../sizeHelper';
 import { Caption, Step } from '../common';
-import bulb from './img/bulb.jpg';
+import bulbImage from './img/bulb.svg';
 
 const OurValuesBlockContainer = styled.div`
   background: #FBFAFA;
@@ -54,10 +54,13 @@ const StepsContainer = styled.div`
   }
 `;
 
-const BulbIcon = styled.img`
+const BulbIcon = styled.div`
   position: absolute;
   right: 0px;
   top: 0px;
+  width: 90px;
+  height: 108px;
+  background: url(${bulbImage});
 
   @media (max-width: ${size.tablet}) {
     display: none;
@@ -75,7 +78,7 @@ const FirstStep = styled(Step)`
 export const OurValuesBlock = () => (
   <OurValuesBlockContainer>
     <DescriptionContainer>
-      <BulbIcon src={bulb} />
+      <BulbIcon />
       <Text>Our core values</Text>
     </DescriptionContainer>
     <StepsContainer>

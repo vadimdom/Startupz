@@ -1,9 +1,9 @@
 import { styled } from 'styled-components';
+import { useState } from 'react';
 
 import { size } from '../../sizeHelper';
 import { ThumbUpBlock } from '../common';
-import help from './img/help.jpg';
-import { useState } from 'react';
+import helpImage from './img/help.svg';
 
 const SolvingProblemsBlockContainer = styled.div`
   position: relative;
@@ -28,7 +28,6 @@ const HelpContainer = styled.div`
   border-radius: 50%;
   width: 98px;
   height: 98px;
-  background: #FBFAFA;
   border: 8px solid white;
   display: flex;
   align-items: center;
@@ -48,14 +47,12 @@ const HelpContainer = styled.div`
   }
 `;
 
-const HelpImage = styled.img`
-  width: 64px;
-  height: 58px;
-
-  @media (max-width: ${size.laptop}) {
-    width: 35px;
-    height: 35px;
-  }
+const HelpImage = styled.div`
+  background: url(${helpImage});
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
 `;
 
 const DialogueContainer = styled.div`
@@ -109,7 +106,7 @@ export const SolvingProblemsBlock = () => {
     <SolvingProblemsBlockContainer>
       <ThumbUpBlock text="We love solving problems!" />
       <HelpContainer onClick={() => setIsDialogueOpen(!isDialogueOpen)}>
-        <HelpImage src={help}/>
+        <HelpImage />
       </HelpContainer>
       {isDialogueOpen && <Dialogue onClose={() => setIsDialogueOpen(false)} />}
     </SolvingProblemsBlockContainer>
