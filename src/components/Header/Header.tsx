@@ -2,7 +2,7 @@ import { styled } from 'styled-components';
 
 import { size } from '../../sizeHelper';
 import { Button, Caption } from '../common';
-import { ReactComponent as StartupzLogo } from './img/startupz_logo.svg';
+import { ReactComponent as StartupzLogo } from '../img/startupz_logo.svg';
 
 const HeaderContainer = styled.div`
   padding: 30px 120px;
