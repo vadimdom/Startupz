@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/Startupz/static/css/main.93a0497a.css",
+    "main.js": "/Startupz/static/js/main.9f659fec.js",
+    "static/js/787.624a07b3.chunk.js": "/Startupz/static/js/787.624a07b3.chunk.js",
+    "static/media/help.svg": "/Startupz/static/media/help.1677cbd44508d6caaa9a22b4b3ad5f5f.svg",
+    "static/media/back.svg": "/Startupz/static/media/back.58bfb755ad1e75bf5540d241649318f7.svg",
+    "static/media/left.svg": "/Startupz/static/media/left.65abfa3e9c58b2254698f351c660a0c8.svg",
+    "static/media/right.svg": "/Startupz/static/media/right.7f2a06f61eb80041b9277816113cc7d5.svg",
+    "static/media/question.svg": "/Startupz/static/media/question.b227cb733e8c3f0f5f5badc4740d234e.svg",
+    "static/media/thumbUp.svg": "/Startupz/static/media/thumbUp.2cd8a37e61d11e762726b87b1f0c92cc.svg",
+    "static/media/bulb.svg": "/Startupz/static/media/bulb.e1153e2a42118dea8b742563af7241d1.svg",
+    "static/media/codekeeper.jpg": "/Startupz/static/media/codekeeper.8000f357079177cfc80e.jpg",
+    "static/media/feedback.jpg": "/Startupz/static/media/feedback.1362817c47ead1937ff5.jpg",
+    "static/media/legalsite.jpg": "/Startupz/static/media/legalsite.c493ebc5326873335cb4.jpg",
+    "static/media/tolq.jpg": "/Startupz/static/media/tolq.c5816d530b6d6824a6fb.jpg",
+    "static/media/startupz_logo.svg": "/Startupz/static/media/startupz_logo.31c2c11da21f2462809c02fed2b4d219.svg",
+    "static/media/rocket.svg": "/Startupz/static/media/rocket.88a5ee4f8ff52280c3512e44ec514925.svg",
+    "static/media/instagram.svg": "/Startupz/static/media/instagram.82a9aa3a3e03f36500f2b0068b0c622e.svg",
+    "static/media/twitter.svg": "/Startupz/static/media/twitter.72d611abba0457e4f910ca8285daafe9.svg",
+    "static/media/linkedin.svg": "/Startupz/static/media/linkedin.169547cce5b9d481c65493f4ee0be61a.svg",
+    "index.html": "/Startupz/index.html",
+    "main.93a0497a.css.map": "/Startupz/static/css/main.93a0497a.css.map",
+    "main.9f659fec.js.map": "/Startupz/static/js/main.9f659fec.js.map",
+    "787.624a07b3.chunk.js.map": "/Startupz/static/js/787.624a07b3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.93a0497a.css",
+    "static/js/main.9f659fec.js"
+  ]
+}
