@@ -6,6 +6,7 @@ import { OurValuesBlock } from './OurValuesBlock';
 import { StartupDescriptionBlock } from './StartupDescriptionBlock';
 import { OurWorksBlock } from './OurWorksBlock/OurWorksBlock';
 import { WeAreHiringBlock } from './WeAreHiringBlock';
+import { FormBlock } from './FormBlock';
 import { Footer } from './Footer';
 
 export const Landing = () => (
@@ -18,6 +19,7 @@ export const Landing = () => (
     <OurWorksBlock />
     <StartupDescriptionBlock />
     <WeAreHiringBlock />
+    <FormBlock />
     <Footer />
   </>
 );

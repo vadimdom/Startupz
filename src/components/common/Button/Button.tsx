@@ -7,7 +7,6 @@ type ButtonSize = 'S' | 'M';
 const StyledButton = styled.button<{ size: ButtonSize; inversed: boolean; }>`
   line-height: 14px;
   width: fit-content;
-  background: white;
   background: ${({inversed}) => inversed ? '#46B8C8' : 'white'};
   border: 1px solid #46B8C8;
   border-radius: 33px;

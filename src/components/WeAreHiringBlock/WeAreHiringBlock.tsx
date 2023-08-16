@@ -17,13 +17,11 @@ const WeAreHiringBlockContainer = styled.div`
   @media (max-width: ${size.laptop}) {
     gap: 20px;
     padding: 30px 0px;
-    background-size: 30%;
   }
 
   @media (max-width: ${size.tablet}) {
     gap: 10px;
     padding: 30px 0px;
-    background-size: 30%;
   }
 `;
 
@@ -31,6 +29,16 @@ const Text = styled(Caption)`
   font-size: 50px;
   line-height: 50px;
   font-weight: 700;
+
+  @media (max-width: ${size.laptop}) {
+    font-size: 32px;
+    line-height: 32px;
+  }
+
+  @media (max-width: ${size.tablet}) {
+    font-size: 18px;
+    line-height: 18px;
+  }
 `;
 
 const SecondaryText = styled(Caption)`
@@ -39,6 +47,16 @@ const SecondaryText = styled(Caption)`
   color: #FB8958;
   max-width: 55%;
   text-align: center;
+
+  @media (max-width: ${size.laptop}) {
+    font-size: 18px;
+    line-height: 18px;
+  }
+
+  @media (max-width: ${size.tablet}) {
+    font-size: 12px;
+    line-height: 12px;
+  }
 `;
 
 const SecondaryContainer = styled.div`
@@ -53,14 +71,40 @@ const RightImage = styled.div`
   height: 320px;
   right: 0;
   background: url(${rightImage});
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  @media (max-width: ${size.laptop}) {
+    width: 110px;
+    height: 120px;
+  }
+
+  @media (max-width: ${size.tablet}) {
+    width: 90px;
+    height: 100px;
+    top: 110px;
+  }
 `;
 
 const LeftImage = styled.div`
   position: absolute;
-  width: 290px;
+  width: 310px;
   height: 320px;
   left: 0;
   background: url(${leftImage});
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  @media (max-width: ${size.laptop}) {
+    width: 120px;
+    height: 120px;
+  }
+
+  @media (max-width: ${size.tablet}) {
+    width: 100px;
+    height: 100px;
+    top: 110px;
+  }
 `;
 
 export const WeAreHiringBlock = () => (
