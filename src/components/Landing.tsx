@@ -4,6 +4,7 @@ import { WhoWeAreBlock } from './WhoWeAreBlock/WhoWeAreBlock';
 import { SolvingProblemsBlock } from './SolvingProblemsBlock';
 import { OurValuesBlock } from './OurValuesBlock';
 import { StartupDescriptionBlock } from './StartupDescriptionBlock';
+import { OurWorksBlock } from './OurWorksBlock/OurWorksBlock';
 
 export const Landing = () => (
   <div>
@@ -12,6 +13,7 @@ export const Landing = () => (
     <WhoWeAreBlock />
     <SolvingProblemsBlock />
     <OurValuesBlock />
+    <OurWorksBlock />
     <StartupDescriptionBlock />
   </div>
 );
